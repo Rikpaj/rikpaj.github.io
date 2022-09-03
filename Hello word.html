@@ -1,49 +1,64 @@
-<!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>riki pajri</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Riki Pajri</title>
     <style>
-    h1{
-        color:blue;
-        cursor:pointer;
-        transition: 0.2s;
-    }
-    h1:hover {
-        color:red;
-        letter-spacing: 2px;
-    }
-    img {
-        width: 4cm;
+              img{
+        width: 100px;
+        height: 100px;
         border-radius: 50%;
         box-shadow: 1px 1px 4px gray;
-        padding: 5px;
         background: white;
-        margin: 15px;
         transition: 0.2s;
-        opacity: 75%;
-    }
-    img:hover {
-        transform:scale(1.2);
-        opacity: 100%;
-        box-shadow: 1px 1px 6px black;
-    }
-    .while{
-        height: 100%;
-        width: 100vh;
+      }
+      img:hover{
+        transform: scale(1.2);
+        box-shadow: 1px 1px 6px blueviolet;
+      }
+      .while{
+        width: 100%;
+        height: 100vh;
         display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: column;
-    }
-</style>
+      }
+      h3{
+       background-image: linear-gradient(to right, blue, green, rgb(255, 64, 0));
+       -webkit-background-clip: text;
+       -webkit-text-fill-color: transparent;
+       cursor: pointer;
+       transition: 0.2s;
+      }
+      h3:hover{
+        letter-spacing: 2px;
+      }
+      h2{
+        color: black;
+        cursor: pointer;
+        transition: 0.2s;
+      }
+      h2:hover{
+        color: rgb(155, 6, 6);
+        letter-spacing: 2px;
+      }
+    </style>
 </head>
 <body>
-<h1>Hello world HTML</h1>
-<P>Saya riki pajri,NIM 41215578</P>
-
-<img src="Foto.jpg">
-
-<button onclick="alert('Hello world javascript!')">Hello javascript!</button>
-
+    <div class="while">
+        <img src="foto.jpg" alt="">
+        <h3>Riki Pajri_41215578</h3>
+        <h2>About Me</h2>
+        <ul>
+        
+            <li>Alamat: Ciamis Rt 15 Rw 06</li>
+            <li>Tempat,Tanggal Lahir: Ciamis, 1 April</li>
+            <li>jenis Kelamin: Laki-Laki</li>
+            <li>Agama:Islam</li>
+        </ul>
+        <button onclick="alert('halo bapak')">Hello Javascript!</button>
+       </div>
 </body>
 </html>
