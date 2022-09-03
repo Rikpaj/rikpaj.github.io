@@ -1,1 +1,0 @@
-# riki-pajri.github.io
